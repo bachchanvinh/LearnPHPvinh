@@ -15,4 +15,7 @@
 //     return view('welcome');
 // });
 
+Route::get('/contact','PostController@contact');
+
+
 Route::get('post/{id}/{name}/{password}',"PostController@show_post");
